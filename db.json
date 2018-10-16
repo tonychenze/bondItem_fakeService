@@ -1,3 +1,34 @@
 {
-  "test": [{ "name": "test" }]
+  "limits": [
+    {
+      "_id": "1",
+      "description": "FX USD-GBP",
+      "type": "VaR",
+      "utilisation": 100,
+      "exposure": 10,
+      "limit": 10,
+      "mrm": "MRM Onwer 1",
+      "business": "business owner",
+      "supervisor": "supervisor ",
+      "tick": 0.5,
+      "breach": 120,
+      "currency": "$",
+      "unit": "B"
+    },
+    {
+      "_id": "2",
+      "description": "FX GBP-EUR",
+      "type": "PST",
+      "utilisation": 35,
+      "exposure": 7,
+      "limit": 20,
+      "mrm": "MRM Onwer 2",
+      "business": "business owner 3",
+      "supervisor": "supervisor 4 ",
+      "tick": 1,
+      "breach": 150,
+      "currency": "£",
+      "unit": "M"
+    }
+  ]
 }
