@@ -85,7 +85,8 @@
       "unit": "M"
     }
   ],
-  "shares":[
+
+  "stocks":[
    {
       "symbol": "CTRN:IND",
       "name": "NASDAQ Transportation Index",
